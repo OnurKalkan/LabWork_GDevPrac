@@ -13,7 +13,7 @@ public class HelloWorld : MonoBehaviour
 
     IEnumerator FrameThree()
     {
-        yield return new WaitForSeconds(Time.deltaTime * 3);
+        yield return new WaitForSeconds(Time.deltaTime * 1);
         print("Hello World");
     }
 
